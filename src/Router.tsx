@@ -7,6 +7,8 @@ const Router = () => {
             <Route exact path="/">
                 <Main />
             </Route>
+            <Route path="components">
+            </Route>
         </Switch>
     );
 }
