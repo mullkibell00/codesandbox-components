@@ -1,10 +1,13 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Switch } from 'react-router-dom';
+import Main from './pages/Main';
 
 const Router = () => {
     return (
-        <Routes>
-            <Route exact path="/" element={ }></Route>
-        </Routes>
+        <Switch>
+            <Route exact path="/">
+                <Main />
+            </Route>
+        </Switch>
     );
 }
 
